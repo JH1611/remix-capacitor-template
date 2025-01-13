@@ -1,6 +1,6 @@
-# Remix + Capacitor!
+# React Router + Capacitor!
 
-This is a basic example of a remix app (With SPA mode) running with capacitor.
+This is a basic example of a React Router app (With SPA mode) running with capacitor.
 
 Install dependencies
 
@@ -8,7 +8,7 @@ Install dependencies
 npm install
 ```
 
-Run dev command to see your page on a web navigator
+Run dev command to see your page on a web browser
 
 ```
 npm run dev
