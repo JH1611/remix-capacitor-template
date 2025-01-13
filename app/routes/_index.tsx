@@ -1,17 +1,17 @@
-import type { MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
+import type { MetaFunction } from "react-router";
+import { Link } from "react-router";
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: "New Remix Capacitor App" },
-		{ name: "description", content: "Welcome to Remix + Capacitor!" },
+		{ title: "New React Router Capacitor App" },
+		{ name: "description", content: "Welcome to React Router + Capacitor!" },
 	];
 };
 
 export default function Index() {
 	return (
 		<div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-			<h1>Welcome to Remix + Capacitor</h1>
+			<h1>Welcome to React Router + Capacitor</h1>
 			<ul>
 				<li>
 					<a
